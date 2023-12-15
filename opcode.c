@@ -10,7 +10,7 @@
 **/
 int _opcode(stack_t **stack, char *opcode, int line_number)
 {
-	instruction_t opcodes[] = {
+	instruction_t opcod[] = {
 		{"pall", _pall},
 		{"pop", _pop},
 		{"swap", _swap},

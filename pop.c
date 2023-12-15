@@ -21,7 +21,7 @@ void _pop(stack_t **stack, unsigned int line_number)
 	}
 	else
 	{
-		*stack = *end;
+		end = *stack;
 		*stack = (*stack)->next;
 		free(end);
 	}
