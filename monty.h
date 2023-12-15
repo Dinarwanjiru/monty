@@ -9,7 +9,7 @@
 #include <ctype.h>
 #include <string.h>
 #define DELIMITER "\n\t\r "
-extern instruction_t opcodes[];
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
